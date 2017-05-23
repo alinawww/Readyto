@@ -1,5 +1,6 @@
-h4= entry.title
-img(src= asset(entry.coverImage), alt="test")
-p= entry.content
-p= entry.date
+div.post-page
+  h4.post-page__title= entry.title
+  img(src= asset(entry.coverImage), alt="test", class="post-page__cover-image")
+  p.post-page__content= entry.content
+  p.post-page__date= entry.date
 //- != marked(entry.body)
