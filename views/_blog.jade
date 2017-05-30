@@ -3,4 +3,4 @@ div.post-page
   img(src= asset(entry.coverImage), alt="test", class="post-page__cover-image")
   p.post-page__content= entry.content
   p.post-page__date= entry.date
-//- != marked(entry.body)
+  != marked(entry.content)

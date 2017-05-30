@@ -7,4 +7,5 @@ module.exports =
       id: 'blogPost'
       template: 'views/_blog.jade'
       path: (entry) -> "blog/#{entry.slug}"
+
       # filters: {}                   # passes filters to the call to contentful's API, see contentful's docs for more info
