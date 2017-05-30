@@ -5,6 +5,7 @@
     "autoprefixer-stylus": "0.5.x",
     "axis": "0.3.x",
     "coffee-script": "1.9.x",
+    "dotenv": "^4.0.0",
     "jade": "1.9.x",
     "marked": "^0.3.6",
     "roots": "3.0.x",
