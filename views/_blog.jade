@@ -1,6 +1,12 @@
-div.post-page
-  h4.post-page__title= entry.title
-  img(src= asset(entry.coverImage), alt="test", class="post-page__cover-image")
-  p.post-page__content= entry.content
-  p.post-page__date= entry.date
-  != marked(entry.content)
+extends layout_post
+
+block content
+
+  div.post-page
+    img(src= asset(entry.coverImage), alt="test", class="post-page__cover-image")
+    h4.post-page__title= entry.title
+    p.post-page__content= entry.content
+    button.fuchsia= entry.title
+    p.post-page__date= entry.date
+    != marked(entry.content)
+    

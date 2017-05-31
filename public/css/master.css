@@ -187,5 +187,50 @@ body {
   font-size-adjust: auto;
 }
 body {
+  padding: 0;
+  background: #f9fafb;
+}
+.header {
+  background: #fff;
+  padding: 20px;
+}
+.header .header-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.header p {
+  margin: 0 auto;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #222;
+}
+.cover {
   padding: 50px;
+}
+.cover-content {
+  max-width: 700px;
+  margin: 0 auto;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+}
+.cover__image {
+  align-self: center;
+  -ms-flex-item-align: center;
+  max-width: 40%;
+}
+h1 {
+  margin: 0 auto;
+  color: #ff6347;
+}
+.blog-post {
+  list-style-type: none;
+}
+.index__post-image {
+  width: 100%;
+}
+.blog-post__container {
+  max-width: 500px;
+  padding: 0;
+  margin: 0 auto;
 }
